@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bb{
+    background-color: rgb(210, 242, 255);
+}
+.bf{
+    display: flex;
+}
+.a{
+    width: 100%;
+    height: 50px;
+    background-image: url('1st.jpg');
+    display: flex;
+    border: 2px solid black;
+    font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: red;
+    justify-content: center; 
+}
+.a h4{
+    font-size: 220px;
+}
+.t{
+  width: 100%;
+  height: 15px;
+  background-color: rgb(209, 209, 209);
+  text-decoration: none;
+  font-size: 7px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+a{
+    color: black;
+}
+a:hover{
+    font-size: 10px;
+    color: red;
+}
+#y{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color:rgb(250, 250, 204);
+    justify-content: center;
+    padding-top: 0px;
+    border-radius: 20px;
+}
+.book{
+    display: flex;
+    width: 130px;
+    height: 27px;
+    border: 2px solid black;
+    font-size: 12px;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: rgb(107, 107, 221);
+    /* box-shadow: 4px 2px gray; */
+}
+.book:hover{
+    box-shadow: 4px 8px 10px pink,  -4px -8px 10px pink;
+    background-color: gray;
+}
+
+
+.d{
+    width:59%;
+    height: 203px !important;
+    color: black;
+    border: 2px solid black;
+    float: right;
+    clear: both;
+    cursor: initial;
+}
+img{
+    width: 600px;
+    height: 200px;
+}
+h5{
+    color:red;
+}
+h1{
+    color: darkblue;
+    font: bold;
+}
+h3{
+    color:black;
+    font: bold;
+}
+.c{
+    padding-top: 0px;
+    width:40%;
+    height: 203px !important;
+    color: black;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: rgb(251, 146, 255);
+    clear: both;
+    font-size: 15px;
+    cursor: initial;
+    text-decoration: underline;
+}
+h2{
+    font-family: Tahoma, sans-serif;
+    color:black;
+    text-align: center;
+
+}
+#d{
+    width: 200px;
+    margin: auto;
+    height: 100px;
+    background-color: springgreen;
+}
+.y{
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    display: inline-block;
+    justify-content: space-evenly;
+    text-decoration: none;
+    cursor: initial;
+}
+#b{
+    margin: auto;
+    margin-top: 5px;
+    width: 85%;
+    padding: 2px;
+    border-radius: 20px;
+    background-image: url('ffm.jpg');
+    text-decoration: none;
+    cursor: initial;
+}
+.p{
+    color: black;
+    cursor: pointer;
+    font-size: 7px;
+    text-decoration: none;
+}
+.v{
+    color: black;
+    cursor: pointer;
+    font-size: 7px;
+    font-weight: bold;
+}
+#op{
+    margin: auto;
+    margin-top: 5px;
+    width: 85%;
+    padding: 2px;
+    border-radius: 20px;
+    background-image: url('frnd.jpg');
+
+}
+#po{
+    margin: auto;
+    margin-top: 5px;
+    width: 85%;
+    padding: 2px;
+    border-radius: 20px;
+    background-image: url('sol.jpg');
+}
+#op:hover{
+    width: 89%px;
+    transition-duration: 0.5s;
+}
+#po:hover{
+    width: 89%px;
+    transition-duration: 0.5s;
+}
+#b:hover{
+    width: 89%px;
+    transition-duration: 0.5s;
+}
+
+hr{
+    color: black;
+}
+.place{
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    justify-content: space-around;
+    
+}
+.card{
+    margin: 5px;
+    margin: auto;
+    margin-top: 5px;
+}
+.card-text{
+    font-size: 12px;
+}
+.card:hover{
+    transition-duration: 0.4s;
+    box-shadow: 10px 8px 10px yellow,  -4px -8px 10px yellow;
+}
+.bts{
+    background-color: black;
+    color: wheat;
+    font-weight: bold;
+}
+.bts:hover{
+    background-color: purple;
+    color: black;
+}
+#spi{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    /* font-weight: bold; */
+    font-size: 20px;
+    /* background-color:rgb(250, 250, 204); */
+    justify-content: center;
+    padding-top: 7px;
+    border-radius: 20px;
+}
+#ssp{
+    display: flex;
+    width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    font-size: 25px;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: rgb(184, 184, 236);
+    /* box-shadow: 4px 2px gray; */
+}
+#sp{
+    display: inline-block;
+    margin: 4pk 4px;
+    justify-content: space-evenly;
+}
+#test{
+    display: inline-block;
+    margin: 5pk 5px;
+    justify-content: space-evenly;
+}
+.tes{
+    margin: 10px;
+    width: 88%;
+    height: 250px;
+    margin: auto;
+    margin-top: 7px;
+    padding: 25px;
+    background-color: gray;
+    border-radius: 50px;
+    align-items: center;
+    
+}
+
+.tes img{
+    border-radius: 60%;
+    width: 80px;
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+.tes h5{
+    color: black;
+    font-size: 14px;
+}
+.tts{
+    font-size: 80px;
+    color: green;
+    font-weight: bold;
+}
+.tts h2{
+    font-size: 20px;
+    color: green;
+}
+.ttt{
+    font-size: 15px;
+    text-align: center;
+}
+.tes:hover{
+    background-color: rgb(255, 253, 253);
+    box-shadow: 4px 8px 20px gray,  -4px -8px 10px gray;
+
+}
+.fas fa-star{
+    size: 15px;
+}
+.tesf{
+    font-size: 12px;
+}
+.tesn{
+    font-size: 21px;
+    text-align: center;
+}
+
+
+#l{
+    width: 100%;
+    background-color: black;
+    height: 290px;
+    cursor: initial;
+
+}
+#ll{
+    border-top: 20px;
+    width: 40%;
+    height: 300px;
+ background-image: url('contact.jpg');
+    margin: auto;
+    color: white;
+    border-radius: 50px;
+}
+.con{
+    color: white;
+    font-size: 15px;
+}
+.co{
+    font-size: x-large;
+}
+.tes h5{
+    font-size: 9px;
+}
+.tes h4{
+    font-size: 13px;
+}
+.dev{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+#l{
+    width: 100%;
+    background-color: black;
+    height: 200px;
+    cursor: initial;
+
+}
+#ll{
+    border-top: 40px;
+    width: 75%;
+    height: 200px;
+    background-color: rgb(184, 183, 183);
+    margin: auto;
+    border-radius: 30px;
+}
+.z{
+    width: 20px;
+    height: 20px;
+}
+h2{
+    font-size: 12px;
+}
+h1{
+    font-size: 10px;
+}
+
+
+
